@@ -29,12 +29,10 @@ const App = () => {
         setIsLogged(value);
     };
 
-    console.log(isLogged);
-
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/react-usestate-estudos" element={<Home />} />
                 <Route
                     path="/login"
                     element={
