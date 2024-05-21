@@ -16,7 +16,7 @@ const Presentation = ({ username, buttonText, isLogged }) => {
             <Presents>Hello, {username}!</Presents>
 
             {isLogged ? (
-                <Button to={"/react-usestate-estudos"}>{buttonText}</Button>
+                <Button to={"/"}>{buttonText}</Button>
             ) : (
                 <Button to={"/login"}>{buttonText}</Button>
             )}
