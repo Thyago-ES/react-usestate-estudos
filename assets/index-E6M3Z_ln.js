@@ -91,7 +91,7 @@ Error generating stack: `+o.message+`
         cursor: pointer;
         background-color: pink;
     }
-`,ms=({username:e,buttonText:t,isLogged:n})=>(_.useEffect(()=>{e&&localStorage.setItem("username",e)},[e]),V.jsxs(Tv,{children:[V.jsxs(Lv,{children:["Hello, ",e,"!"]}),n?V.jsx(Ka,{to:"/react-usestate-estudos",children:t}):V.jsx(Ka,{to:"/login",children:t})]}));ms.propTypes={username:Zt.string,buttonText:Zt.string,isLogged:Zt.bool};const zv=()=>V.jsx(V.Fragment,{children:V.jsx(ms,{username:"Stranger",buttonText:"Cadastrar"})}),Ov=Dt.div`
+`,ms=({username:e,buttonText:t,isLogged:n})=>(_.useEffect(()=>{e&&localStorage.setItem("username",e)},[e]),V.jsxs(Tv,{children:[V.jsxs(Lv,{children:["Hello, ",e,"!"]}),n?V.jsx(Ka,{to:"/",children:t}):V.jsx(Ka,{to:"/login",children:t})]}));ms.propTypes={username:Zt.string,buttonText:Zt.string,isLogged:Zt.bool};const zv=()=>V.jsx(V.Fragment,{children:V.jsx(ms,{username:"Stranger",buttonText:"Cadastrar"})}),Ov=Dt.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
