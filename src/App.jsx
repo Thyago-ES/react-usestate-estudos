@@ -30,9 +30,9 @@ const App = () => {
     };
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/react-usestate-estudos">
             <Routes>
-                <Route path="/react-usestate-estudos" element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route
                     path="/login"
                     element={

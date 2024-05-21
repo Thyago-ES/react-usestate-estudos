@@ -3,8 +3,6 @@ import Presentation from "../../components/Presentation";
 import PropTypes from "prop-types";
 
 const Logged = ({ username, logout }) => {
-    console.log(logout);
-
     return (
         <>
             <Presentation
